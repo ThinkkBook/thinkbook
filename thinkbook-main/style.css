@@ -1,0 +1,281 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*below class not used */
+.section-block {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 60px;
+  padding-left: 120px;
+  box-sizing: border-box;
+}
+
+/*-------------------------------------title*/
+
+#title {
+  background-color: #004aad;
+  text-align: left;
+  color: #f4f9f9;
+  padding: 0 0 5% 0;
+}
+#logo {
+  display: inline-block;
+  margin: 10px;
+  float: left;
+  height: 360px;
+  width: 360px;
+  width: auto;
+  border-radius: 100%;
+}
+@media screen and (max-device-width: 480px){
+    .section-block {
+        display: block;
+        height: 75%;
+        width: 75%;
+        padding: 30px;
+        padding-left: 60px;
+        box-sizing: border-box;
+    }
+    #title {
+        background-color: #004aad;
+        text-align: left;
+        color: #f4f9f9;
+        padding: 0 0 2.5% 0;
+    }
+    #logo {
+        display: inline-block;
+        margin: 8px;
+        float: left;
+        height: 150px;
+        width: 150px;
+        width: auto;
+        border-radius: 75%;
+    }
+    .big-heading-title {
+        text-align: left;
+        margin: 0 0 2.5% 0;
+    }
+
+    .navbar {
+        padding: 3% 0 5%;
+    }
+
+    .navbar-brand {
+        font-size: 3rem;
+    }
+
+    .navbar-custom .navbar-nav .nav-link {
+        color: #f4f9f9;
+        font-size: 1.2rem;
+        font-weight: normal;
+    }
+
+    .title-img {
+        width: 100%;
+    }
+
+    .explore-button {
+        margin: 1% 0 6% 0;
+    }
+
+}
+.big-heading-title {
+  text-align: left;
+  margin: 0 0 10% 0;
+}
+
+.navbar {
+  padding: 7% 0 10%;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #f4f9f9;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.title-img {
+  width: 100%;
+}
+
+.explore-button {
+  margin: 5% 0 15% 0;
+}
+
+/*----------------------------------features*/
+
+#feature {
+}
+#feature .big-heading {
+  text-align: center;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.feature-icon {
+  color: #004aad;
+}
+
+/*-----------------------------------courses*/
+
+#courses {
+  background-color: #004aad;
+  padding: 5% 0 10%;
+}
+
+.big-heading-courses {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#courses .container #carouselExampleIndicators {
+  height: 38rem;
+  margin: 0;
+  padding: 0;
+}
+
+.courses-intro {
+  text-align: left;
+  color: white;
+  padding: 3% 0 0;
+}
+.courses-card {
+  width: 25rem;
+  height: 30rem;
+}
+.courses-img {
+  width: 100%;
+  height: 60%;
+}
+
+/*-------------------------------founders*/
+
+#founders {
+  padding: 5% 0 0;
+}
+.card-deck.founders {
+  padding: 5%;
+}
+
+.founders-img {
+  text-align: center;
+  border-radius: 50%;
+  width: 40%;
+}
+.founders-text {
+  text-align: left;
+}
+.card-footer {
+  background-color: white;
+  border-width: 0;
+}
+#mission {
+  background-color: #004aad;
+  color: white;
+  padding: 5% 0;
+}
+
+/*---------------------------------------mission*/
+#mission {
+  padding: 12% 0 12%;
+}
+
+/*----------------------------------------community*/
+#community {
+  padding: 10% 0 10%;
+}
+
+.community-img {
+  width: 80%;
+}
+.discord-button {
+  background-color: #7289d9;
+  color: white;
+  margin-top: 5%;
+}
+
+.telegram-button {
+  background-color: #0088cc;
+  color: white;
+  margin-top: 5%;
+}
+
+#community-footer-content {
+  padding: 2% 0 1%;
+  background-color: #004aad;
+  color: white;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*-------------------------about-us*/
+.about-us-content {
+  background-color: #004aad;
+  color: white;
+  text-align: left;
+  padding: 3% 0 1%;
+}
+
+.social-icon {
+  margin: 0 2%;
+  color: white;
+}
+
+.ruler-white {
+  background-color: white;
+  height: 1px;
+}
+
+@media (max-width: 768px) {
+  #courses .container #carouselExampleIndicators {
+    height: 35rem;
+    margin: 0;
+    padding: 0;
+  }
+  .courses-card {
+    width: 15rem;
+    height: 28rem;
+  }
+  .courses-img {
+    width: 100%;
+    height: 40%;
+  }
+}
+
+@media (max-width: 355px) {
+  #courses .container #carouselExampleIndicators {
+    height: 35rem;
+    margin: 0;
+    padding: 0;
+  }
+  .courses-card {
+    width: 12rem;
+    height: 28rem;
+  }
+  .courses-img {
+    width: 100%;
+    height: 35%;
+  }
+}
